@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Belgrano&display=swap');
+
+body {
+    margin: 0px;
+    font-family: 'Belgrano', serif;
+    color: #333333;
+}
+textarea{
+  
+    border: 1px solid black;
+    width: 80%;
+    height: 20vh;
+    margin: 1rem;
+    display: block;
+    margin-left: 7%;
+    padding: 0.5rem;
+    font-size: 20px;
+    font-family: 'Belgrano', serif;
+    border-radius: 1rem;
+
+}
+textarea::placeholder{
+     font-size: 20px;
+}
+
+#heading {
+    
+    margin: 0px;
+    display: block;
+    text-align: center;
+    background-color: wheat;
+    color: black;
+    padding: 2rem;
+    height: 4rem;
+}
+
+#output {
+
+
+    border: 1px solid black;
+    width: 80%;
+    height: 20vh;
+    margin: 1rem;
+    margin-left: 7%;
+    display: block;
+    padding: 0.5rem;
+    font-size: 20px;
+    border-radius: 1rem;
+}
+
+#btn-translate {
+
+margin-left: 7%;
+margin-top: 2rem;
+height: 5vh;
+background-color: wheat;
+color: black;
+font-family: 'Belgrano', serif;
+font-size: large;
+border-radius: 0.5rem;
+
+}
+
+#footer {
+   padding-bottom: 1rem;
+   margin-top: 3rem;
+   padding: 1rem;
+    text-align: center;
+    color: black;
+    background-color: wheat;
+}
